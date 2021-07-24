@@ -1,0 +1,10 @@
+.Filter_Input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+
+  input {
+    max-width: 200px;
+    margin-top: 8px;
+  }
+}

@@ -1,0 +1,28 @@
+.ContactList {
+  list-style: none;
+  padding: 0;
+
+  &_Item {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e7e7e7;
+
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
+
+    &:hover {
+      background-color: #e3e3e3;
+    }
+  }
+
+  &_Name {
+    font-weight: 700;
+  }
+
+  & > p {
+    margin: 0;
+  }
+}
